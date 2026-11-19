@@ -149,6 +149,8 @@ p { margin: 0 0 1em; }
 .cta h2 { color: #fff; margin-bottom: .3em; }
 .cta p { margin: 0; opacity: .92; }
 
+.faq { background: linear-gradient(120deg, var(--green-700), var(--green-500)); color: #fff; padding: 3.5rem 0; }
+
 .note { background: var(--green-100); border-left: 4px solid var(--green-500); padding: 1rem 1.2rem; border-radius: 0 12px 12px 0; font-size: .92rem; color: var(--muted); }
 .press__title { margin-bottom: 1rem; }
 .press { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .6rem; }
