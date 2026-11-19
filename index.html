@@ -1,25 +1,249 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Collecte de biodéchets à Toulouse – Récup’Occitanie</title>
-        <link rel="stylesheet" href="style.css">
-        <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
-        </head>
-    <body>
-        <header>
-            <h1>Bienvenue sur notre site</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Collecte de biodéchets à Toulouse – Récup'Occitanie</title>
+  <meta name="description" content="Récup'Occitanie collecte vos biodéchets à domicile à Toulouse, à vélo électrique, pour particuliers et professionnels. Seau Bokashi fourni, compost remis à des partenaires agricoles.">
+  <meta name="theme-color" content="#2f6b3f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#accueil" class="brand" aria-label="Récup'Occitanie – accueil">
+        <span class="brand__logo" aria-hidden="true">♻</span>
+        <span class="brand__text">Récup'<strong>Occitanie</strong></span>
+      </a>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <a href="#accueil">Composter en ville</a>
+        <a href="#entreprises">Pour les entreprises</a>
+        <a href="#particuliers">Pour les particuliers</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--small" href="https://toulouse.recup-bokashi.fr" target="_blank" rel="noopener">Demander une collecte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">Collecte de biodéchets à Toulouse</p>
+          <h1>Revalorisez vos déchets alimentaires avec <span>Récup'Occitanie</span></h1>
+          <p class="lead">Équipement, collecte, revalorisation : tout est prévu ! Nous venons chercher vos biodéchets à domicile, à vélo, et le compost retourne à la terre.</p>
+          <div class="hero__cta">
+            <a class="btn" href="https://toulouse.recup-bokashi.fr" target="_blank" rel="noopener">Demander une collecte</a>
+            <a class="btn btn--ghost" href="#adherer">Adhérer en ligne</a>
+          </div>
+        </div>
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="bucket">
+            <div class="bucket__lid"></div>
+            <div class="bucket__body"><span>♻</span></div>
+            <div class="bucket__tap"></div>
+          </div>
+          <div class="leaf leaf--1">🌿</div>
+          <div class="leaf leaf--2">🍃</div>
+          <div class="leaf leaf--3">🚲</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHIFFRES -->
+    <section class="stats" aria-label="Chiffres clés">
+      <div class="container stats__grid">
+        <div class="stat reveal">
+          <span class="stat__num" data-count="40" data-suffix=" t">0</span>
+          <span class="stat__label">de biodéchets collectés et compostés par an</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="7500" data-suffix=" km">0</span>
+          <span class="stat__label">parcourus à vélo chaque année</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="700">0</span>
+          <span class="stat__label">ménages adhérents, soit près de 1 800 personnes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUI, QUOI, COMMENT -->
+    <section class="section" id="comment">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Qui, quoi, comment ?</p>
+          <h2>Équipement, collecte, revalorisation : tout est prévu !</h2>
         </header>
-        <main>
-            <section>
-                <h2>À propos de nous</h2>
-                <p>Nous sommes une entreprise dédiée à fournir les meilleurs services à nos clients.</p>
-            </section>
-            <section>
-                <h2>Nos services</h2>
-                <p>Nous offrons une large gamme de services pour répondre à tous vos besoins.</p>
-            </section>
-        </main>
-    </body>
+
+        <div class="steps">
+          <article class="card step reveal">
+            <span class="step__icon" aria-hidden="true">🪣</span>
+            <h3>Un seau hermétique</h3>
+            <p>Pour mieux conserver vos déchets. Le seau fonctionne par fermentation sans oxygène (Bokashi) et possède un petit robinet pour récupérer le jus, un fertilisant pour vos plantes d'intérieur.</p>
+          </article>
+          <article class="card step reveal">
+            <span class="step__icon" aria-hidden="true">🚲</span>
+            <h3>Collecte à domicile en vélo électrique</h3>
+            <p>Les collectes se font à la demande, en vélo-remorque ou triporteur, pour désengorger les centres urbains et réduire les émissions.</p>
+          </article>
+          <article class="card step reveal">
+            <span class="step__icon" aria-hidden="true">🌱</span>
+            <h3>Revalorisation locale</h3>
+            <p>La matière est acheminée vers la plateforme de compostage de l'EDENN, écopôle dédié à l'agriculture urbaine. Le compost va à nos partenaires agricoles, et une partie est mise à disposition des adhérents.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVANTAGES -->
+    <section class="section section--tint" id="avantages">
+      <div class="container split">
+        <div class="reveal">
+          <p class="eyebrow">Pourquoi nous rejoindre</p>
+          <h2>Simple, propre et sans odeur</h2>
+          <p>Fini les épluchures qui encombrent la poubelle : vous triez, nous collectons.</p>
+        </div>
+        <ul class="ticks reveal">
+          <li><strong>Aucune odeur</strong> grâce au seau hermétique.</li>
+          <li><strong>Environ 6 collectes par an</strong> en moyenne pour les ménages toulousains.</li>
+          <li><strong>Un compost en 4 à 5 mois</strong>, remis à des partenaires agricoles.</li>
+          <li><strong>Un impact local</strong> : collecte à vélo, compostage dans l'agglomération.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ENTREPRISES / PARTICULIERS -->
+    <section class="section" id="publics">
+      <div class="container duo">
+        <article class="card audience reveal" id="particuliers">
+          <p class="eyebrow">Pour les particuliers</p>
+          <h2>Composter, même sans jardin</h2>
+          <p>Adhérez, recevez votre seau et demandez une collecte quand il est plein. Le Guide d'utilisation 2026 vous explique tout, pas à pas.</p>
+          <div class="actions">
+            <a class="btn" href="https://toulouse.recup-bokashi.fr" target="_blank" rel="noopener">Demander une collecte</a>
+            <!-- TODO : remplacer # par le lien du PDF « Guide Bokashi » -->
+            <a class="link" href="#" id="guide-link">Guide Bokashi (PDF) →</a>
+          </div>
+        </article>
+        <article class="card audience audience--dark reveal" id="entreprises">
+          <p class="eyebrow">Pour les entreprises</p>
+          <h2>Valorisez les biodéchets de votre structure</h2>
+          <p>Restaurants, bureaux, commerces : nous collectons aussi les biodéchets des professionnels de Toulouse. Parlons de votre besoin.</p>
+          <div class="actions">
+            <a class="btn btn--light" href="#contact">Nous contacter</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ADHÉSION -->
+    <section class="cta" id="adherer">
+      <div class="container cta__inner reveal">
+        <div>
+          <h2>Pour adhérer en ligne, c'est par ici !</h2>
+          <p>L'adhésion annuelle se fait en quelques minutes sur HelloAsso.</p>
+        </div>
+        <!-- TODO : remplacer # par le lien HelloAsso d'adhésion -->
+        <a class="btn btn--light" href="#" id="adhesion-link">Adhérer</a>
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="section" id="apropos">
+      <div class="container split">
+        <div class="reveal">
+          <p class="eyebrow">À propos</p>
+          <h2>Valorisons ensemble nos biodéchets !</h2>
+          <p>Récup'Occitanie – Compostage Urbain est une association toulousaine qui collecte à domicile les biodéchets alimentaires des particuliers et des professionnels, et les transforme en compost grâce à ses partenaires agricoles.</p>
+          <p class="note">Précision : nous ne recommandons plus d'ajouter des micro-organismes efficaces (EM) dans les seaux. Des sachets de 2 kg sont toutefois vendus 10 € aux adhérents qui le souhaitent.</p>
+        </div>
+        <div class="reveal">
+          <h3 class="press__title">Ils parlent de nous</h3>
+          <ul class="press">
+            <li>Sud Ouest</li>
+            <li>20 Minutes</li>
+            <li>LCP</li>
+            <li>France 3 Occitanie</li>
+            <li>Le Parisien</li>
+            <li>La Dépêche</li>
+            <li>Actu Toulouse</li>
+            <li>Aqui.fr</li>
+            <li>Up Le Mag</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--tint" id="contact">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Contactez-nous</p>
+          <h2>Valorisons ensemble nos biodéchets !</h2>
+        </header>
+        <div class="contact">
+          <a class="card contact__item reveal" href="mailto:recupoccitanie@gmail.com">
+            <span aria-hidden="true">✉️</span>
+            <strong>Email</strong>
+            <span>recupoccitanie@gmail.com</span>
+          </a>
+          <a class="card contact__item reveal" href="tel:+33619325003">
+            <span aria-hidden="true">📞</span>
+            <strong>Téléphone</strong>
+            <span>06 19 32 50 03</span>
+          </a>
+          <div class="card contact__item reveal">
+            <span aria-hidden="true">🔗</span>
+            <strong>Réseaux sociaux</strong>
+            <span class="socials">
+              <!-- TODO : vérifier les liens exacts des réseaux -->
+              <a href="https://www.instagram.com/recupoccitanie" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://www.facebook.com/RecupOccitanie" target="_blank" rel="noopener">Facebook</a>
+              <a href="https://www.linkedin.com/search/results/all/?keywords=R%C3%A9cup%20Occitanie%20Compostage%20Urbain" target="_blank" rel="noopener">LinkedIn</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Récup'Occitanie – Compostage Urbain</p>
+      <nav aria-label="Informations légales">
+        <!-- TODO : créer/relier les pages légales -->
+        <a href="#">Mentions légales</a>
+        <a href="#">Conditions générales d'utilisation</a>
+        <a href="#">Politique de confidentialité</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Bandeau cookies -->
+  <div class="cookies" id="cookies" role="dialog" aria-label="Cookies" hidden>
+    <p>Nous utilisons des cookies pour assurer une expérience de navigation fluide.</p>
+    <div>
+      <button class="btn btn--small" id="cookies-accept" type="button">Accepter</button>
+      <a class="link" href="#">En savoir plus</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
